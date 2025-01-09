@@ -1,0 +1,68 @@
+#tenis .titulo p {
+    text-transform: uppercase;
+  }
+
+  .titulo{
+    margin-top: 48px
+  }
+  
+  .tenis {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 40px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  
+  .tenis-imagens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .tenis-imagens img {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .tenis-imagens img:first-child {
+    min-width: 100%;
+  }
+  
+  .tenis-conteudo > p {
+    margin-bottom: 32px;
+  }
+  
+  .tenis-comprar {
+    display: grid;
+    grid-template-columns: max-content auto;
+    align-items: center;
+    justify-items: start;
+    gap: 8px 12px;
+    margin-bottom: 40px;
+  }
+  
+
+  
+  @media (max-width: 800px) {
+    .tenis {
+      grid-template-columns: 1fr;
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+
+    .tenis-imagens {
+      grid-row: 2;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .tenis-informacoes {
+      grid-template-columns: 1fr;
+    }
+    .tenis-comprar {
+      grid-template-columns: 1fr;
+    }
+  }
+  

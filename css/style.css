@@ -1,0 +1,25 @@
+/* Header e resetar padrões */
+@import url("global/global.css");
+@import url("global/header.css");
+@import url("global/footer.css");
+
+/* Componentes, cores, tipografia */
+@import url("componentes/componentes.css");
+@import url("componentes/cores.css");
+@import url("componentes/formulario.css");
+@import url("componentes/tipografias.css");
+
+/* Tenis comprar lista */
+@import url("tenis-lista-comprar/comprar.css");
+
+/* Termos e condições */
+@import url("termos/termos.css");
+
+/* introdução site */
+@import url("home/introducao.css");
+
+/* lista de tênis */
+@import url("tenis/tenis-listas.css");
+
+/* Contato */
+@import url("contato/contato.css");

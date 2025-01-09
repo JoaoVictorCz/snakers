@@ -1,0 +1,77 @@
+.tenis-lista{
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+
+.tenis-lista h2{   
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    max-width: 1200px;
+    padding: 20px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tenis-listaf{
+    padding-top: 0px;
+}
+
+.oferta{
+    text-decoration: line-through;
+}
+
+.tenis-lista ul{
+    display: flex;
+    gap: 40px;
+    padding: 0 20px 50px 20px;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: auto;
+}
+
+.tenis-lista li{
+    min-width: 280px;
+}
+
+.tenis-lista a{
+    display: block;
+}
+
+.tenis-lista img{
+    margin-bottom: 16px;
+}
+
+.tenis-lista h3{
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.tenis-lista h3::before{
+    content:"";
+    display: inline-block;
+    height: 8px;
+    width: 12px;
+    margin-right: 8px;
+    background-color: var(--cor-p1);
+    transition: width .3s;
+}
+
+.tenis-lista a:hover h3::before{
+    width: 24px;
+}
+
+.tenis-lista li span{
+    padding-left: 20px;
+}
+
+@media(max-width: 800px){
+    .tenis-lista{
+        padding-bottom: 60px;
+    }
+    .tenis-lista ul{
+        gap: 20px;
+    }
+}
